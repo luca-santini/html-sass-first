@@ -1,8 +1,23 @@
+$colore_principale: #8B008B;
+$colore_secondario: #DAA520;
 body {
     background-color: grey;
+}
+section {
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin-bottom: 10px;
 }
 h1 {
     color: black;
     text-transform: uppercase;
-    color: red;
+}
+h2{
+    color: $colore_principale;
+}
+h3{
+    color: $colore_principale;
+}
+p {
+    color: $colore_secondario;
 }
